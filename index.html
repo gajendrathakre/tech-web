@@ -372,26 +372,26 @@
         </div>
         <div class="row" data-aos="fade-up" data-aos-offset="200">
             <div class="col-sm-12 col-md-6 col-lg-6 col-12">
-                <form class="row g-3">
+                <form class="row g-3 gform pure-form pure-form-stacked" action="https://script.google.com/macros/s/AKfycbxYJAtTxa69uAWDwdi1rKjSqVA1BLJh9m8E6M20XTue2ytU_xdqNGtJ8qxJkpPdEaPiJg/exec" data-email="gajendrathakreenthusists97@gmail.com">
                     <div class="col-md-6 text-start">
                       <label for="inputEmail4" class="form-label"><b>Email</b></label>
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your email address.." required>
+                      <input type="email" class="form-control" id="inputEmail4" name="email" placeholder="Enter your email address.." required>
                     </div>
                     <div class="col-md-6 text-start">
                       <label for="inputPassword4" class="form-label"><b>Password</b></label>
-                      <input type="password" class="form-control" id="inputPassword4" placeholder="Enter your password" required>
+                      <input type="password" class="form-control" id="inputPassword4" name="password" placeholder="Enter your password" required>
                     </div>
                     <div class="col-12 text-start">
                       <label for="inputAddress" class="form-label"><b>Address</b></label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="Enter your address..." required>
+                      <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Enter your address..." required>
                     </div>
                     <div class="col-md-6 text-start">
                       <label for="inputCity" class="form-label"><b>City</b></label>
-                      <input type="text" class="form-control" id="inputCity" placeholder="Enter your city.." required>
+                      <input type="text" class="form-control" id="inputCity" name="city" placeholder="Enter your city.." required>
                     </div>
                     <div class="col-md-4 text-start">
                       <label for="inputState" class="form-label"><b>State</b></label>
-                      <select id="inputState" class="form-select">
+                      <select id="inputState" name="state" class="form-select">
                         <option selected>Choose...</option>
                         <option>Maharashtra</option>
                         <option>Madhya Pradesh</option>
@@ -402,7 +402,7 @@
                     </div>
                     <div class="col-md-2 text-start">
                       <label for="inputZip" class="form-label"><b>Zip Code</b></label>
-                      <input type="text" class="form-control" id="inputZip" placeholder="440035">
+                      <input type="text" class="form-control" id="inputZip" name="zip" placeholder="440035">
                     </div>
                     <div class="col-12 text-start">
                       <div class="form-check">
@@ -415,6 +415,22 @@
                     <div class="col-12 text-start">
                       <button type="submit" class="btn btn-primary"><b>Sign in</b></button>
                     </div>
+                    <br>
+                    <div class="thankyou_message"
+																											style="display:none;">
+																											<h4><em>Thanks
+																													for
+																													contacting
+																													us!
+																													We
+																													will
+																													get
+																													back
+																													to
+																													you
+																													soon!</em>
+																											</h4>
+																										</div>
                   </form>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end p-4" data-aos="flip-left" data-aos-offset="200">
@@ -456,6 +472,8 @@
 <script>
   AOS.init();
 </script>
-
+<!-- Go to top -->
+<a href="#" class="sp-scroll-up" aria-label="Scroll Up"><span class="fas fa-angle-up" aria-hidden="true"></span></a>
+<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 </body>
 </html>
